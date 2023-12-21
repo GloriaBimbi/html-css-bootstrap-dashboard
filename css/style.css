@@ -1,5 +1,5 @@
 /* RESET
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 img {
   max-width: 100%;
-}
+} */
 
 ul {
   list-style: none;
@@ -17,21 +17,23 @@ li {
   display: inline-block;
 }
 
-a {
+/* a {
   color: inherit;
-}
+} */
 
 /* UTILS */
 
 /* .container {
   max-width: 1080px;
   padding: 0;
-}
-
-body {
-} */
+}*/
 
 /* DEBUG */
+
+.debug {
+  background-color: green;
+  border: 2px solid orange;
+}
 
 header {
   min-height: 100px;
@@ -39,7 +41,7 @@ header {
 
 #side-bar {
   width: 100px;
-  height: calc(100% - 100px);
+  height: calc(100vh - 100px);
   background-color: hsl(208.1, 82.5%, 11.2%);
 }
 
@@ -57,13 +59,52 @@ header {
 
 /* HEADER */
 #header {
-  background-color: white;
+  background-color: hsl(210, 16.7%, 97.6%);
 }
 
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.logo-mobile {
+  width: 50px;
+}
+.search-suggestion,
+.search-bar .fa-magnifying-glass,
+.search-bar .fa-list,
+.search-bar .fa-circle-question,
+.search-bar .fa-ellipsis-vertical {
+  color: grey;
+}
+
+.search-suggestion,
+.search-glass {
+  border-left: none;
+  background-color: #e5e5e5;
+}
+
+.search-bar {
+  max-width: 80%;
+  min-width: 100px;
+}
+
+.nav-link li {
+  padding: 0 5px;
+}
+
+.bell {
+  color: hsl(33.6, 100%, 50%);
+  font-size: 20px;
+}
 /* MAIN */
 #main {
-  background-color: hsl(0, 0%, 96.9%);
-  width: calc(100% - 100px);
+  width: calc(100vw - 100px);
+  background-color: hsl(210, 16.7%, 97.6%);
 }
 
 #upper-bar {

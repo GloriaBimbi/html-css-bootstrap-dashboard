@@ -28,13 +28,70 @@
     <!-- link font -->
   </head>
   <body>
-    <header id="header">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem blanditiis
-      nesciunt neque delectus recusandae. Praesentium aperiam laboriosam quis
-      ipsam eum accusantium, vero beatae eaque sunt, adipisci enim asperiores
-      molestiae officia.
+    <!-- HEADER -->
+    <header id="header" class="p-2">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-logo">
+          <img
+            src="./img/mobile-logo.png"
+            alt="logo boolean small"
+            class="d-lg-none logo-mobile"
+          />
+          <img
+            src="./img/logo.svg"
+            alt="boolean logo"
+            class="d-none d-lg-block"
+          />
+        </div>
+        <div class="search-bar input-group mb-3">
+          <span class="input-group-text search-glass" id="basic-addon1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input
+            type="text"
+            class="form-control search-suggestion"
+            placeholder="Prova a cercare: Lezioni di Laravel"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <ul class="d-flex align-items-center nav-link">
+          <li>
+            <i class="fa-solid fa-list d-none d-lg-table-cell"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-question d-none d-lg-table-cell"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-ellipsis-vertical d-none d-lg-table-cell"></i>
+          </li>
+          <li>
+            <div class="dropdown">
+              <a
+                class="btn btn-secondary dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-bell bell"></i>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <!-- MAIN -->
     <main class="flex-container">
+      <!-- SIDE BAR -->
       <div id="side-bar">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
         reprehenderit eligendi enim aperiam architecto temporibus recusandae
@@ -42,12 +99,14 @@
         id est illo perferendis.
       </div>
       <div>
+        <!-- upper bar -->
         <div id="upper-bar">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
           molestiae iusto quam, natus deserunt ipsam tempora necessitatibus
           pariatur enim sapiente repellendus, ipsa debitis atque nesciunt soluta
           placeat quis laborum corrupti.
         </div>
+        <!-- main content -->
         <div id="main">
           <div class="container">
             <div class="row">
