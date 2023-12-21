@@ -39,12 +39,6 @@ header {
   min-height: 100px;
 }
 
-#side-bar {
-  width: 100px;
-  height: calc(100vh - 100px);
-  background-color: hsl(208.1, 82.5%, 11.2%);
-}
-
 .card {
   background-color: blueviolet;
   border: 2px solid red;
@@ -103,11 +97,35 @@ header {
 }
 /* MAIN */
 #main {
-  width: calc(100vw - 100px);
+  width: calc(100vw - 200px);
   background-color: hsl(210, 16.7%, 97.6%);
 }
 
 #upper-bar {
   background-color: hsl(214.5, 81.7%, 50.8%);
   min-height: 100px;
+}
+
+/* side bar */
+#side-bar {
+  width: 200px;
+  height: calc(100vh - 100px);
+  background-color: hsl(208.1, 82.5%, 11.2%);
+}
+
+.side-menu {
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.icons-side-menu {
+  max-width: 10px;
+}
+
+.bottom-menu-item {
+  margin-top: auto;
 }
