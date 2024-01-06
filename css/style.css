@@ -97,6 +97,11 @@ header {
   color: hsl(33.6, 100%, 50%);
   font-size: 20px;
 }
+
+.nav-link .dropdown-menu {
+  left: -143px;
+}
+
 /* MAIN */
 #main {
   width: calc(100vw - 50px);
