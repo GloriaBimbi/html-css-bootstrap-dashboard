@@ -122,6 +122,10 @@
         <!-- upper bar -->
         <div id="upper-bar">
           <div class="upper-bar-section">
+            <div class="upper-bar-section d-md-none">
+              <span>Nuovo studente</span>
+              <button class="add-student">+</button>
+            </div>
             <div class="upper-line-upper-bar">
               <span class="title-upper-bar">Boolean</span>
               <span class="upper-bar-button">Piano blaze</span>
@@ -147,7 +151,7 @@
             </div>
             <div class="numero-studenti">125</div>
           </div>
-          <div class="upper-bar-section">
+          <div class="upper-bar-section d-none d-md-block">
             <span>Nuovo studente</span>
             <button class="add-student">+</button>
           </div>
@@ -156,12 +160,220 @@
         <div id="main">
           <div class="container">
             <div class="row">
+              <!-- card1 -->
               <div class="col-12 col-lg-8">
-                <div class="card"></div>
+                <div class="card">
+                  <h3>Prossime classi</h3>
+                  <div class="container">
+                    <div class="row container-table title-row">
+                      <div class="col-4 col-md-6">Nome</div>
+                      <div class="d-none d-md-block col-2">Data inizio</div>
+                      <div class="d-none d-md-block col-1">ROI</div>
+                      <div class="col-2 col-md-1">Stato</div>
+                      <div class="col-2">Azioni</div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 0rem 0.5rem" />
+                  <div class="container">
+                    <div class="row container-table container-info-status">
+                      <div class="col-4 col-md-6">
+                        <div class="code-simbol">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <span>Classe 75</span>
+                      </div>
+                      <div class="d-none d-md-block col-2">15 Feb 2021</div>
+                      <div class="d-none d-md-block col-1">20%</div>
+                      <div class="col-2 col-md-1">
+                        <div class="status-tag done-tag">Done</div>
+                      </div>
+                      <div class="col-2">
+                        <div class="operation">
+                          <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="operation">
+                          <i class="fa-solid fa-trash"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 0rem 0.5rem" />
+                  <div class="container">
+                    <div class="row container-table container-info-status">
+                      <div class="col-4 col-md-6">
+                        <div class="code-simbol">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <span>Classe 76</span>
+                      </div>
+                      <div class="d-none d-md-block col-2">16 Feb 2021</div>
+                      <div class="d-none d-md-block col-1">20%</div>
+                      <div class="col-2 col-md-1">
+                        <div class="status-tag done-tag">Done</div>
+                      </div>
+                      <div class="col-2">
+                        <div class="operation">
+                          <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="operation">
+                          <i class="fa-solid fa-trash"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 0rem 0.5rem" />
+                  <div class="container">
+                    <div class="row container-table container-info-status">
+                      <div class="col-4 col-md-6">
+                        <div class="code-simbol">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <span>Classe 77</span>
+                      </div>
+                      <div class="d-none d-md-block col-2">17 Feb 2021</div>
+                      <div class="d-none d-md-block col-1">20%</div>
+                      <div class="col-2 col-md-1">
+                        <div class="status-tag process-tag">process</div>
+                      </div>
+                      <div class="col-2">
+                        <div class="operation">
+                          <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="operation">
+                          <i class="fa-solid fa-trash"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 0rem 0.5rem" />
+                  <div class="container">
+                    <div class="row container-table container-info-status">
+                      <div class="col-4 col-md-6">
+                        <div class="code-simbol">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <span>Classe 78</span>
+                      </div>
+                      <div class="d-none d-md-block col-2">18 Feb 2021</div>
+                      <div class="d-none d-md-block col-1">20%</div>
+                      <div class="col-2 col-md-1">
+                        <div class="status-tag done-tag">Done</div>
+                      </div>
+                      <div class="col-2">
+                        <div class="operation">
+                          <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="operation">
+                          <i class="fa-solid fa-trash"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 0rem 0.5rem" />
+                  <div class="container">
+                    <div class="row container-table container-info-status">
+                      <div class="col-4 col-md-6">
+                        <div class="code-simbol">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <span>Classe 79</span>
+                      </div>
+                      <div class="d-none d-md-block col-2">19 Feb 2021</div>
+                      <div class="d-none d-md-block col-1">20%</div>
+                      <div class="col-2 col-md-1">
+                        <div class="status-tag failed-tag">failed</div>
+                      </div>
+                      <div class="col-2">
+                        <div class="operation">
+                          <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="operation">
+                          <i class="fa-solid fa-trash"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 0rem 0.5rem" />
+                  <div class="container">
+                    <div class="row container-table container-info-status">
+                      <div class="col-4 col-md-6">
+                        <div class="code-simbol">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <span>Classe 80</span>
+                      </div>
+                      <div class="d-none d-md-block col-2">20 Feb 2021</div>
+                      <div class="d-none d-md-block col-1">20%</div>
+                      <div class="col-2 col-md-1">
+                        <div class="status-tag done-tag">Done</div>
+                      </div>
+                      <div class="col-2">
+                        <div class="operation">
+                          <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="operation">
+                          <i class="fa-solid fa-trash"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 0rem 0.5rem" />
+                  <div class="container">
+                    <div class="row container-table container-info-status">
+                      <div class="col-4 col-md-6">
+                        <div class="code-simbol">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <span>Classe 81</span>
+                      </div>
+                      <div class="d-none d-md-block col-2">21 Feb 2021</div>
+                      <div class="d-none d-md-block col-1">20%</div>
+                      <div class="col-2 col-md-1">
+                        <div class="status-tag failed-tag">failed</div>
+                      </div>
+                      <div class="col-2">
+                        <div class="operation">
+                          <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="operation">
+                          <i class="fa-solid fa-trash"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 0rem 0.5rem" />
+                  <div class="container">
+                    <div class="row container-table container-info-status">
+                      <div class="col-4 col-md-6">
+                        <div class="code-simbol">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <span>Classe 82</span>
+                      </div>
+                      <div class="d-none d-md-block col-2">22 Feb 2021</div>
+                      <div class="d-none d-md-block col-1">20%</div>
+                      <div class="col-2 col-md-1">
+                        <div class="status-tag done-tag">Done</div>
+                      </div>
+                      <div class="col-2">
+                        <div class="operation">
+                          <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="operation">
+                          <i class="fa-solid fa-trash"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="margin: 0rem 0.5rem 1rem 0.5rem" />
+                </div>
+                <!-- card2 -->
                 <div class="card"></div>
               </div>
               <div class="col-12 col-lg-4">
+                <!-- card3 -->
                 <div class="card"></div>
+                <!-- card4 -->
                 <div class="card"></div>
               </div>
             </div>
